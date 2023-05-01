@@ -46,6 +46,10 @@ export const GameModel = createModel({
 })
 
 export const GameMachine = GameModel.createMachine({
+
+  predictableActionArguments: true,
+
+
   id: 'game',
   context: {
     ...GameModel.initialContext,

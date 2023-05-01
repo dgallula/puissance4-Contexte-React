@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "tsx src/server/server.ts",
+    "gen:key": "tsx src/commands/genkey.ts",
     "start:watch": "nodemon src/server/server.ts",
     "dev": "vite",
     "build": "tsc && vite build",
@@ -35,3 +36,5 @@
     "ext": "ts,tsx"
   }
 }
+
+

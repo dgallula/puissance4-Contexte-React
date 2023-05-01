@@ -28,3 +28,28 @@ L'objectif du projet est de créer un jeu de puissance 4 connecté ou 2 joueurs 
 - Mise en place du serveur *
 - Jeu en ligne *
 - Mise en ligne (déploiement)
+
+## github
+
+
+git add .
+git commit -m " etape4 init"
+git remote add origin https://github.com/dgallula/puissance4-Contexte-React.git
+git branch -M master
+git push -u origin master
+
+
+
+## installaation server
+
+npm i tsx -D
+npm i nodemon -D
+
+
+
+
+
+
+
+
+
